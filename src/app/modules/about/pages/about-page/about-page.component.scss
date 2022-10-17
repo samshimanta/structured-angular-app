@@ -1,0 +1,20 @@
+.card{
+    width: 60% ;
+    margin: 0 auto;
+    background-color: #237;
+}
+mat-card-title{
+    height: 2.5rem;
+    line-height: 2.5rem;
+    text-align: center;
+    background-color: #348;
+    color: #ddd;
+    border: 2px solid #aaa;
+
+}
+mat-card-content{
+    background-color: #448;
+    color: #eee;
+    padding: 10px;
+    border: 2px solid #aaa;
+}
