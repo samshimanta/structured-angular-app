@@ -8,7 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class NavComponent implements OnInit {
 
   navItems = [
-    { link: '/dashboard/home', title: 'Home' },
+    //{ link: '/dashboard/home', title: 'Home' },
+    { link: '/home', title: 'Home' },
     { link: '/about', title: 'About' },
     { link: '/contact', title: 'Contact' }
   ];

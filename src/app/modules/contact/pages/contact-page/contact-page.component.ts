@@ -32,14 +32,7 @@ export class ContactPageComponent implements OnInit  {
   Object.keys(this.feedbackForm.controls).forEach(key => {
     this.feedbackForm.controls[key].setErrors(null)
   });
-  
-  
-  
-  
-  
-  
-  
-  
+       
 }
 
   getErrorMessage() {
